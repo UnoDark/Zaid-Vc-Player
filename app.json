@@ -1,8 +1,8 @@
 {
-    "name": "Zaid Vc Player",
+    "name": "HINATA",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["Zaid", "Zaid-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/ITZ-ZAID/Zaid-Vc-Player",
+    "repository": "https://github.com/UnoDark/Zaid-Vc-Player",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
