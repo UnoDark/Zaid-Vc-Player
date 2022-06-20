@@ -276,7 +276,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**Downloading**\n\n0% Cute si UNO"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -311,7 +311,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**Downloader**\n\n**Title**: {title[:22]}\n\n100% Cute nga si UNO100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             if int(assistant) == 1:
                                await call_py.join_group_call(
